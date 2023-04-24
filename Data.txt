@@ -72,7 +72,7 @@ UTILITIES:
 55.	Launchy:						launchy                                 Hotkey Launcher
 56.	WinDirStat:						windirstat                              Directory Statistics
 57.	Glary:							glary                                   System Utilities
-58.	InfraRecorder:				    nfrarecorder                           Disc Burner
+58.	InfraRecorder:				    nfrarecorder                            Disc Burner
 59.	Classic Start					classicstart                            Classic Shell Win8 Start Menu
 
 SECURITY:
@@ -83,7 +83,7 @@ SECURITY:
 64.	Avira:							avira                                   Avira Free Antivirus
 
 DEVELOPER TOOLS
-65. Python							python					    Programming Language
+65. Python							python					                Programming Language
 66.	Notepad++:						notepadplusplus                         Programmer's Editor
 67.	PuTTY:							putty                                   SSH client
 68.	WinMerge:						winmerge                                Compare and Merge Files
