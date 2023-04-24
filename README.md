@@ -19,7 +19,7 @@ Thanks to Moritz Mantel for the initial work! You should take a look at his GitH
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE]() file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/Stensel8/Simple-Ninite-Client/blob/main/LICENSE) file for details
 
 
 ## Acknowledgments
