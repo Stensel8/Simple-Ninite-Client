@@ -4,7 +4,7 @@ Add-Type -AssemblyName System.Windows.Forms
 #Close button
 $Button2.Add_Click{($Form1.Close())}
 
-#Instll Button
+#Install Button
 $Button1.Add_Click{(Install-Button)}
 
 
@@ -110,7 +110,7 @@ function Install-Button{
 
     [System.Windows.Forms.MessageBox]::Show("The selected software will be downloaded from the internet.","Ninite",1)
     Write-Host "Starting Installer Download"
-    wget $Link -OutFile 'Install.exe'
+    Invoke-WebRequest $Link -OutFile 'Install.exe'
     Write-Host "Installation Done"
 
     Write-Host "Starting Installation"
