@@ -1,0 +1,97 @@
+WEB BROWSERS
+1.	Chrome:							chrome                                  Browser by Google.
+2.	Opera:							operaChromium                           Browser by Opera.
+3.  Firefox:						firefox                            	    Browser by Mozilla.
+4.  Edge:                       	edge                                    Microsoft Edge Browser, the default Windows browser.
+
+FILE SHARING
+5.	qBittorrent:					qbittorrent                             A free torrenting client.
+6.  Filezilla:						filezilla
+
+COMPRESSION
+7.	7-Zip:							7zip                                    Most popular file compression tool
+8.	PeaZip:							peazip                                  Alternative file Compression Tool
+9.	WinRar:							winrar                                  Another Compression Tool (Trial version)
+
+MESSAGING:
+10.	Zoom:                          	zoom                                    Video Conference
+11.	Discord:						discord                                 Voice and Text Chat
+12.	Skype:							skype                                   Internet Telephone
+13.	Pidgin:							pidgin                                  Multi-IM Client
+14.	Thunderbird:					thunderbird                             Email Reader by Mozilla
+15.	Trillian:						trillian                                Trillian IM
+
+ONLINE STORAGE:
+16.	Dropbox:						dropbox                                 Online Backup/File Sync
+17.	Google Backup & Sync:			googlebackupandsync                     Online Backup/File Sync
+18.	OneDrive:						onedrive                                Online File Sync by Microsoft
+19.	SugarSync:						sugarsync                               Online Backup/File Sync
+
+MEDIA:
+20.	iTunes:							itunes                                  Music/Media Manager
+21.	VLC:							vlc                                     Great Video Player
+22.	AIMP:							aimp                                    Music Player
+23.	foobar2000:						foobar                                  Music Player
+24.	Winamp:							winamp                                  Music Player
+25.	MusicBee:						musicbee                                Music Manager & Player
+26.	Audacity:						audacity                                Audio Editor
+27.	K-Lite Codecs:					klitecodecs                             Video decoders plus Media Player Classic
+28.	GOM:							gom                                     Video Player
+29.	Spotify:						spotify                                 Online Music Service
+30.	CCCP:							cccp                                    Video decoders plus MPC
+31.	MediaMonkey:					mediamonkey                             Music Organizer
+32.	HandBrake:						handbrake                               Convert Videos (requires .NET 4.7.1)
+
+OTHER:
+33.	Evernote:						evernote                                Online Notes
+34.	Google Earth:					googleearth                             Online Atlas by Google
+35.	Steam:							steam                                   App Store for Games
+36.	KeePass 2:						keepass2                                Password Manager
+37.	Everything:						everything                              Local File Search Engine
+38.	NV Access:						nvda                                    Screen Reader
+
+IMAGING:
+39.	Krita:							krita                                   Painting Program
+40.	Blender:						blender                                 3D Creation Suite
+41.	Paint.NET:						paint.net                               Image Editor (requires .NET 4.5)
+42.	GIMP:							gimp                                    Open Source Image Editor
+43.	IrfanView:						irfanview                               Image Viewer
+44.	XnView:							xnview                                  Image Viewer
+45.	Inkscape:						inkscape                                Vector Graphics Editor
+46.	FastStone:						faststone                               FastStone Image Viewer
+47.	Greenshot:						greenshot                               Screenshot Tool
+48.	ShareX:							sharex                                  Screenshot Uploader
+
+UTILITIES:
+49. TeamViewer:			            teamviewer15                            Remote Access Tool V. 15
+50.	ImgBurn:						imgburn                                 Disc Burner
+51.	RealVNC:						realvnc                                 RealVNC Remote Access 
+52.	TeraCopy:						teracopy                                Better File Copy 
+53.	CDBurnerXP:						cdburnerxp                              Disc Burner (requires .NET)
+54.	Revo:							revo                                    App Uninstaller/Reverse Ninite
+55.	Launchy:						launchy                                 Hotkey Launcher
+56.	WinDirStat:						windirstat                              Directory Statistics
+57.	Glary:							glary                                   System Utilities
+58.	InfraRecorder:				    nfrarecorder                           Disc Burner
+59.	Classic Start					classicstart                            Classic Shell Win8 Start Menu
+
+SECURITY:
+60.	Malwarebytes:					malwarebytes                            Malware Remover
+61.	Avast:							avast                                   Avast Free Antivirus
+62.	AVG:							avg                                     AVG Free Antivirus
+63.	Spybot 2:						spybot2                                 Spyware Remover
+64.	Avira:							avira                                   Avira Free Antivirus
+
+DEVELOPER TOOLS
+65. Python							python					    Programming Language
+66.	Notepad++:						notepadplusplus                         Programmer's Editor
+67.	PuTTY:							putty                                   SSH client
+68.	WinMerge:						winmerge                                Compare and Merge Files
+69.	Visual Studio Code:				vscode                                  Programmer's Editor
+
+DOCUMENTS:
+70.	Foxit Reader:					foxit                                   Alternative PDF Reader
+71.	LibreOffice:					libreoffice                             Free Office Suite (JRE recommended)
+72.	SumatraPDF:						sumatrapdf                              Lightweight PDF Reader
+73.	CutePDF:						cutepdf                                 Print Documents as PDF Files
+74.	OpenOffice:						openoffice                              Free Office Suite (JRE recommended)
