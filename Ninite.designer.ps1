@@ -1382,7 +1382,7 @@ $Panel6.TabIndex = [System.Int32]6
 #CheckBoxonedrive
 #
 $CheckBoxonedrive.ForeColor = [System.Drawing.Color]::White
-$CheckBoxonedrive.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]68))
+$CheckBoxonedrive.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
 $CheckBoxonedrive.Name = [System.String]'CheckBoxonedrive'
 $CheckBoxonedrive.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
 $CheckBoxonedrive.TabIndex = [System.Int32]3
