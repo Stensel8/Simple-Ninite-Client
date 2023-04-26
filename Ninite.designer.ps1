@@ -11,8 +11,8 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.CheckBox]$CheckBoxcorrettojdkx8 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjdkx112 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjdkx82 = $null
-[System.Windows.Forms.CheckBox]$CheckBoxphyton = $null
-[System.Windows.Forms.CheckBox]$CheckBoxphytonx3 = $null
+[System.Windows.Forms.CheckBox]$CheckBoxpython = $null
+[System.Windows.Forms.CheckBox]$CheckBoxpythonx3 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxvscode = $null
 [System.Windows.Forms.CheckBox]$CheckBoxeclipse = $null
 [System.Windows.Forms.CheckBox]$CheckBoxwinmerge = $null
@@ -22,7 +22,7 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjdk82 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxnotepadplusplus = $null
 [System.Windows.Forms.CheckBox]$CheckBoxfilezilla = $null
-[System.Windows.Forms.CheckBox]$CheckBoxphyton3 = $null
+[System.Windows.Forms.CheckBox]$CheckBoxpython3 = $null
 [System.Windows.Forms.Label]$Label15 = $null
 [System.Windows.Forms.Panel]$Panel13 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxsuper = $null
@@ -99,9 +99,7 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Label]$Label8 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxitunes = $null
 [System.Windows.Forms.Panel]$Panel6 = $null
-[System.Windows.Forms.CheckBox]$CheckBoxsugarsync = $null
 [System.Windows.Forms.CheckBox]$CheckBoxonedrive = $null
-[System.Windows.Forms.CheckBox]$CheckBoxgooglebackupandsync = $null
 [System.Windows.Forms.CheckBox]$CheckBoxdropbox = $null
 [System.Windows.Forms.Label]$Label7 = $null
 [System.Windows.Forms.Panel]$Panel5 = $null
@@ -139,8 +137,8 @@ $CheckBoxcorrettojdkx11 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxcorrettojdkx8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjdkx112 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjdkx82 = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxphyton = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxphytonx3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
+$CheckBoxpython = (New-Object -TypeName System.Windows.Forms.CheckBox)
+$CheckBoxpythonx3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxvscode = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxeclipse = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxwinmerge = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -150,7 +148,7 @@ $CheckBoxcorrettojdk8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjdk82 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxnotepadplusplus = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxfilezilla = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxphyton3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
+$CheckBoxpython3 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label15 = (New-Object -TypeName System.Windows.Forms.Label)
 $Panel13 = (New-Object -TypeName System.Windows.Forms.Panel)
 $CheckBoxsuper = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -227,9 +225,7 @@ $CheckBoxvlc = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label8 = (New-Object -TypeName System.Windows.Forms.Label)
 $CheckBoxitunes = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Panel6 = (New-Object -TypeName System.Windows.Forms.Panel)
-$CheckBoxsugarsync = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxonedrive = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxgooglebackupandsync = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxdropbox = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label7 = (New-Object -TypeName System.Windows.Forms.Label)
 $Panel5 = (New-Object -TypeName System.Windows.Forms.Panel)
@@ -369,8 +365,8 @@ $Panel14.Controls.Add($CheckBoxcorrettojdkx11)
 $Panel14.Controls.Add($CheckBoxcorrettojdkx8)
 $Panel14.Controls.Add($CheckBoxadoptjdkx112)
 $Panel14.Controls.Add($CheckBoxadoptjdkx82)
-$Panel14.Controls.Add($CheckBoxphyton)
-$Panel14.Controls.Add($CheckBoxphytonx3)
+$Panel14.Controls.Add($CheckBoxpython)
+$Panel14.Controls.Add($CheckBoxpythonx3)
 $Panel14.Controls.Add($CheckBoxvscode)
 $Panel14.Controls.Add($CheckBoxeclipse)
 $Panel14.Controls.Add($CheckBoxwinmerge)
@@ -380,7 +376,7 @@ $Panel14.Controls.Add($CheckBoxcorrettojdk8)
 $Panel14.Controls.Add($CheckBoxadoptjdk82)
 $Panel14.Controls.Add($CheckBoxnotepadplusplus)
 $Panel14.Controls.Add($CheckBoxfilezilla)
-$Panel14.Controls.Add($CheckBoxphyton3)
+$Panel14.Controls.Add($CheckBoxpython3)
 $Panel14.Controls.Add($Label15)
 $Panel14.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]1165,[System.Int32]43))
 $Panel14.Name = [System.String]'Panel14'
@@ -431,28 +427,28 @@ $CheckBoxadoptjdkx82.Text = [System.String]'JDK (AdoptOpenJDK) x64 8'
 $CheckBoxadoptjdkx82.UseCompatibleTextRendering = $true
 $CheckBoxadoptjdkx82.UseVisualStyleBackColor = $true
 #
-#CheckBoxphyton
+#CheckBoxpython
 #
-$CheckBoxphyton.ForeColor = [System.Drawing.Color]::White
-$CheckBoxphyton.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]85))
-$CheckBoxphyton.Name = [System.String]'CheckBoxphyton'
-$CheckBoxphyton.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
-$CheckBoxphyton.TabIndex = [System.Int32]13
-$CheckBoxphyton.Text = [System.String]'phyton'
-$CheckBoxphyton.UseCompatibleTextRendering = $true
-$CheckBoxphyton.UseVisualStyleBackColor = $true
+$CheckBoxpython.ForeColor = [System.Drawing.Color]::White
+$CheckBoxpython.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]85))
+$CheckBoxpython.Name = [System.String]'CheckBoxpython'
+$CheckBoxpython.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
+$CheckBoxpython.TabIndex = [System.Int32]13
+$CheckBoxpython.Text = [System.String]'python'
+$CheckBoxpython.UseCompatibleTextRendering = $true
+$CheckBoxpython.UseVisualStyleBackColor = $true
 #
-#CheckBoxphytonx3
+#CheckBoxpythonx3
 #
-$CheckBoxphytonx3.ForeColor = [System.Drawing.Color]::White
-$CheckBoxphytonx3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]25))
-$CheckBoxphytonx3.Name = [System.String]'CheckBoxphytonx3'
-$CheckBoxphytonx3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]24))
-$CheckBoxphytonx3.TabIndex = [System.Int32]12
-$CheckBoxphytonx3.Text = [System.String]'Phyton x64 3'
-$CheckBoxphytonx3.UseCompatibleTextRendering = $true
-$CheckBoxphytonx3.UseVisualStyleBackColor = $true
-$CheckBoxphytonx3.add_CheckedChanged($CheckBoxphytonx3_CheckedChanged)
+$CheckBoxpythonx3.ForeColor = [System.Drawing.Color]::White
+$CheckBoxpythonx3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]25))
+$CheckBoxpythonx3.Name = [System.String]'CheckBoxpythonx3'
+$CheckBoxpythonx3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]24))
+$CheckBoxpythonx3.TabIndex = [System.Int32]12
+$CheckBoxpythonx3.Text = [System.String]'python x64 3'
+$CheckBoxpythonx3.UseCompatibleTextRendering = $true
+$CheckBoxpythonx3.UseVisualStyleBackColor = $true
+$CheckBoxpythonx3.add_CheckedChanged($CheckBoxpythonx3_CheckedChanged)
 #
 #CheckBoxvscode
 #
@@ -553,16 +549,16 @@ $CheckBoxfilezilla.Text = [System.String]'FileZilla'
 $CheckBoxfilezilla.UseCompatibleTextRendering = $true
 $CheckBoxfilezilla.UseVisualStyleBackColor = $true
 #
-#CheckBoxphyton3
+#CheckBoxpython3
 #
-$CheckBoxphyton3.ForeColor = [System.Drawing.Color]::White
-$CheckBoxphyton3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
-$CheckBoxphyton3.Name = [System.String]'CheckBoxphyton3'
-$CheckBoxphyton3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
-$CheckBoxphyton3.TabIndex = [System.Int32]1
-$CheckBoxphyton3.Text = [System.String]'phyton 3'
-$CheckBoxphyton3.UseCompatibleTextRendering = $true
-$CheckBoxphyton3.UseVisualStyleBackColor = $true
+$CheckBoxpython3.ForeColor = [System.Drawing.Color]::White
+$CheckBoxpython3.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
+$CheckBoxpython3.Name = [System.String]'CheckBoxpython3'
+$CheckBoxpython3.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
+$CheckBoxpython3.TabIndex = [System.Int32]1
+$CheckBoxpython3.Text = [System.String]'python 3'
+$CheckBoxpython3.UseCompatibleTextRendering = $true
+$CheckBoxpython3.UseVisualStyleBackColor = $true
 #
 #Label15
 #
@@ -1431,26 +1427,13 @@ $CheckBoxitunes.UseVisualStyleBackColor = $true
 #Panel6
 #
 $Panel6.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
-$Panel6.Controls.Add($CheckBoxsugarsync)
 $Panel6.Controls.Add($CheckBoxonedrive)
-$Panel6.Controls.Add($CheckBoxgooglebackupandsync)
 $Panel6.Controls.Add($CheckBoxdropbox)
 $Panel6.Controls.Add($Label7)
 $Panel6.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]163,[System.Int32]259))
 $Panel6.Name = [System.String]'Panel6'
 $Panel6.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]152))
 $Panel6.TabIndex = [System.Int32]6
-#
-#CheckBoxsugarsync
-#
-$CheckBoxsugarsync.ForeColor = [System.Drawing.Color]::White
-$CheckBoxsugarsync.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]123))
-$CheckBoxsugarsync.Name = [System.String]'CheckBoxsugarsync'
-$CheckBoxsugarsync.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
-$CheckBoxsugarsync.TabIndex = [System.Int32]4
-$CheckBoxsugarsync.Text = [System.String]'SugarSync'
-$CheckBoxsugarsync.UseCompatibleTextRendering = $true
-$CheckBoxsugarsync.UseVisualStyleBackColor = $true
 #
 #CheckBoxonedrive
 #
@@ -1462,17 +1445,6 @@ $CheckBoxonedrive.TabIndex = [System.Int32]3
 $CheckBoxonedrive.Text = [System.String]'OneDrive'
 $CheckBoxonedrive.UseCompatibleTextRendering = $true
 $CheckBoxonedrive.UseVisualStyleBackColor = $true
-#
-#CheckBoxgooglebackupandsync
-#
-$CheckBoxgooglebackupandsync.ForeColor = [System.Drawing.Color]::White
-$CheckBoxgooglebackupandsync.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
-$CheckBoxgooglebackupandsync.Name = [System.String]'CheckBoxgooglebackupandsync'
-$CheckBoxgooglebackupandsync.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]32))
-$CheckBoxgooglebackupandsync.TabIndex = [System.Int32]2
-$CheckBoxgooglebackupandsync.Text = [System.String]'Google Backup and Sync'
-$CheckBoxgooglebackupandsync.UseCompatibleTextRendering = $true
-$CheckBoxgooglebackupandsync.UseVisualStyleBackColor = $true
 #
 #CheckBoxdropbox
 #
@@ -1762,8 +1734,8 @@ Add-Member -InputObject $Form1 -Name CheckBoxcorrettojdkx11 -Value $CheckBoxcorr
 Add-Member -InputObject $Form1 -Name CheckBoxcorrettojdkx8 -Value $CheckBoxcorrettojdkx8 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjdkx112 -Value $CheckBoxadoptjdkx112 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjdkx82 -Value $CheckBoxadoptjdkx82 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxphyton -Value $CheckBoxphyton -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxphytonx3 -Value $CheckBoxphytonx3 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxpython -Value $CheckBoxpython -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxpythonx3 -Value $CheckBoxpythonx3 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxvscode -Value $CheckBoxvscode -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxeclipse -Value $CheckBoxeclipse -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxwinmerge -Value $CheckBoxwinmerge -MemberType NoteProperty
@@ -1773,7 +1745,7 @@ Add-Member -InputObject $Form1 -Name CheckBoxcorrettojdk8 -Value $CheckBoxcorret
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjdk82 -Value $CheckBoxadoptjdk82 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxnotepadplusplus -Value $CheckBoxnotepadplusplus -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxfilezilla -Value $CheckBoxfilezilla -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxphyton3 -Value $CheckBoxphyton3 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxpython3 -Value $CheckBoxpython3 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label15 -Value $Label15 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel13 -Value $Panel13 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxsuper -Value $CheckBoxsuper -MemberType NoteProperty
@@ -1850,9 +1822,7 @@ Add-Member -InputObject $Form1 -Name CheckBoxvlc -Value $CheckBoxvlc -MemberType
 Add-Member -InputObject $Form1 -Name Label8 -Value $Label8 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxitunes -Value $CheckBoxitunes -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel6 -Value $Panel6 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxsugarsync -Value $CheckBoxsugarsync -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxonedrive -Value $CheckBoxonedrive -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxgooglebackupandsync -Value $CheckBoxgooglebackupandsync -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxdropbox -Value $CheckBoxdropbox -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label7 -Value $Label7 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel5 -Value $Panel5 -MemberType NoteProperty
