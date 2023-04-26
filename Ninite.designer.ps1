@@ -46,10 +46,8 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.CheckBox]$CheckBoxrealvnc = $null
 [System.Windows.Forms.CheckBox]$CheckBoximgburn = $null
 [System.Windows.Forms.Label]$Label13 = $null
-[System.Windows.Forms.CheckBox]$CheckBoxteamviewer14 = $null
 [System.Windows.Forms.Panel]$Panel11 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxopenoffice = $null
-[System.Windows.Forms.CheckBox]$CheckBoxpdfcreator = $null
 [System.Windows.Forms.CheckBox]$CheckBoxcutepdf = $null
 [System.Windows.Forms.CheckBox]$CheckBoxsumatrapdf = $null
 [System.Windows.Forms.CheckBox]$CheckBoxlibreoffice = $null
@@ -78,8 +76,6 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Panel]$Panel8 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjavax11 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjavax8 = $null
-[System.Windows.Forms.CheckBox]$CheckBoxair = $null
-[System.Windows.Forms.CheckBox]$CheckBoxsilverlight = $null
 [System.Windows.Forms.CheckBox]$CheckBoxnet48 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxadoptjava8 = $null
 [System.Windows.Forms.Label]$Label9 = $null
@@ -172,10 +168,8 @@ $CheckBoxteracopy = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxrealvnc = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoximgburn = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label13 = (New-Object -TypeName System.Windows.Forms.Label)
-$CheckBoxteamviewer14 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Panel11 = (New-Object -TypeName System.Windows.Forms.Panel)
 $CheckBoxopenoffice = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxpdfcreator = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxcutepdf = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxsumatrapdf = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxlibreoffice = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -204,8 +198,6 @@ $Label10 = (New-Object -TypeName System.Windows.Forms.Label)
 $Panel8 = (New-Object -TypeName System.Windows.Forms.Panel)
 $CheckBoxadoptjavax11 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjavax8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxair = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxsilverlight = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxnet48 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxadoptjava8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label9 = (New-Object -TypeName System.Windows.Forms.Label)
@@ -689,7 +681,6 @@ $Panel12.Controls.Add($CheckBoxteracopy)
 $Panel12.Controls.Add($CheckBoxrealvnc)
 $Panel12.Controls.Add($CheckBoximgburn)
 $Panel12.Controls.Add($Label13)
-$Panel12.Controls.Add($CheckBoxteamviewer14)
 $Panel12.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]836,[System.Int32]43))
 $Panel12.Name = [System.String]'Panel12'
 $Panel12.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]163,[System.Int32]394))
@@ -826,22 +817,10 @@ $Label13.TabIndex = [System.Int32]1
 $Label13.Text = [System.String]'Utilities'
 $Label13.UseCompatibleTextRendering = $true
 #
-#CheckBoxteamviewer14
-#
-$CheckBoxteamviewer14.ForeColor = [System.Drawing.Color]::White
-$CheckBoxteamviewer14.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]27))
-$CheckBoxteamviewer14.Name = [System.String]'CheckBoxteamviewer14'
-$CheckBoxteamviewer14.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]172,[System.Int32]24))
-$CheckBoxteamviewer14.TabIndex = [System.Int32]0
-$CheckBoxteamviewer14.Text = [System.String]'TeamViewer 14 (no support)'
-$CheckBoxteamviewer14.UseCompatibleTextRendering = $true
-$CheckBoxteamviewer14.UseVisualStyleBackColor = $true
-#
 #Panel11
 #
 $Panel11.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
 $Panel11.Controls.Add($CheckBoxopenoffice)
-$Panel11.Controls.Add($CheckBoxpdfcreator)
 $Panel11.Controls.Add($CheckBoxcutepdf)
 $Panel11.Controls.Add($CheckBoxsumatrapdf)
 $Panel11.Controls.Add($CheckBoxlibreoffice)
@@ -862,17 +841,6 @@ $CheckBoxopenoffice.TabIndex = [System.Int32]6
 $CheckBoxopenoffice.Text = [System.String]'OpenOffice'
 $CheckBoxopenoffice.UseCompatibleTextRendering = $true
 $CheckBoxopenoffice.UseVisualStyleBackColor = $true
-#
-#CheckBoxpdfcreator
-#
-$CheckBoxpdfcreator.ForeColor = [System.Drawing.Color]::White
-$CheckBoxpdfcreator.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]147))
-$CheckBoxpdfcreator.Name = [System.String]'CheckBoxpdfcreator'
-$CheckBoxpdfcreator.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]167,[System.Int32]24))
-$CheckBoxpdfcreator.TabIndex = [System.Int32]5
-$CheckBoxpdfcreator.Text = [System.String]'PDFCreator (no support)'
-$CheckBoxpdfcreator.UseCompatibleTextRendering = $true
-$CheckBoxpdfcreator.UseVisualStyleBackColor = $true
 #
 #CheckBoxcutepdf
 #
@@ -1163,8 +1131,6 @@ $Label10.UseCompatibleTextRendering = $true
 $Panel8.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
 $Panel8.Controls.Add($CheckBoxadoptjavax11)
 $Panel8.Controls.Add($CheckBoxadoptjavax8)
-$Panel8.Controls.Add($CheckBoxair)
-$Panel8.Controls.Add($CheckBoxsilverlight)
 $Panel8.Controls.Add($CheckBoxnet48)
 $Panel8.Controls.Add($CheckBoxadoptjava8)
 $Panel8.Controls.Add($Label9)
@@ -1194,28 +1160,6 @@ $CheckBoxadoptjavax8.TabIndex = [System.Int32]7
 $CheckBoxadoptjavax8.Text = [System.String]'Java (AdoptOpenJDK) x64 8'
 $CheckBoxadoptjavax8.UseCompatibleTextRendering = $true
 $CheckBoxadoptjavax8.UseVisualStyleBackColor = $true
-#
-#CheckBoxair
-#
-$CheckBoxair.ForeColor = [System.Drawing.Color]::White
-$CheckBoxair.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]174))
-$CheckBoxair.Name = [System.String]'CheckBoxair'
-$CheckBoxair.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]24))
-$CheckBoxair.TabIndex = [System.Int32]6
-$CheckBoxair.Text = [System.String]'Adobe Air (no support)'
-$CheckBoxair.UseCompatibleTextRendering = $true
-$CheckBoxair.UseVisualStyleBackColor = $true
-#
-#CheckBoxsilverlight
-#
-$CheckBoxsilverlight.ForeColor = [System.Drawing.Color]::White
-$CheckBoxsilverlight.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]144))
-$CheckBoxsilverlight.Name = [System.String]'CheckBoxsilverlight'
-$CheckBoxsilverlight.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
-$CheckBoxsilverlight.TabIndex = [System.Int32]5
-$CheckBoxsilverlight.Text = [System.String]'Silverlight'
-$CheckBoxsilverlight.UseCompatibleTextRendering = $true
-$CheckBoxsilverlight.UseVisualStyleBackColor = $true
 #
 #CheckBoxnet48
 #
@@ -1438,7 +1382,7 @@ $Panel6.TabIndex = [System.Int32]6
 #CheckBoxonedrive
 #
 $CheckBoxonedrive.ForeColor = [System.Drawing.Color]::White
-$CheckBoxonedrive.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]93))
+$CheckBoxonedrive.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
 $CheckBoxonedrive.Name = [System.String]'CheckBoxonedrive'
 $CheckBoxonedrive.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
 $CheckBoxonedrive.TabIndex = [System.Int32]3
@@ -1769,10 +1713,8 @@ Add-Member -InputObject $Form1 -Name CheckBoxteracopy -Value $CheckBoxteracopy -
 Add-Member -InputObject $Form1 -Name CheckBoxrealvnc -Value $CheckBoxrealvnc -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoximgburn -Value $CheckBoximgburn -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label13 -Value $Label13 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxteamviewer14 -Value $CheckBoxteamviewer14 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel11 -Value $Panel11 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxopenoffice -Value $CheckBoxopenoffice -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxpdfcreator -Value $CheckBoxpdfcreator -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxcutepdf -Value $CheckBoxcutepdf -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxsumatrapdf -Value $CheckBoxsumatrapdf -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxlibreoffice -Value $CheckBoxlibreoffice -MemberType NoteProperty
@@ -1801,8 +1743,6 @@ Add-Member -InputObject $Form1 -Name Label10 -Value $Label10 -MemberType NotePro
 Add-Member -InputObject $Form1 -Name Panel8 -Value $Panel8 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjavax11 -Value $CheckBoxadoptjavax11 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjavax8 -Value $CheckBoxadoptjavax8 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxair -Value $CheckBoxair -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxsilverlight -Value $CheckBoxsilverlight -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxnet48 -Value $CheckBoxnet48 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxadoptjava8 -Value $CheckBoxadoptjava8 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label9 -Value $Label9 -MemberType NoteProperty

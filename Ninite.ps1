@@ -62,7 +62,6 @@ function Install-Button{
     if ($CheckBoxlibreoffice.Checked){$Link= $Link +  "-libreoffice"}
     if ($CheckBoxsumatrapdf.Checked){$Link= $Link +  "-sumatrapdf"}
     if ($CheckBoxcutepdf.Checked){$Link= $Link +  "-cutepdf"}
-    if ($CheckBoxpdfcreator.Checked){$Link= $Link +  "-pdfcreator"}
     if ($CheckBoxopenoffice.Checked){$Link= $Link +  "-openoffice"}
     if ($CheckBoxteamviewer15.Checked){$Link= $Link +  "-teamviewer15"}
     if ($CheckBoximgburn.Checked){$Link= $Link +  "-imgburn"}
@@ -199,7 +198,6 @@ $tooltip.SetToolTip($CheckBoxfoxit,"Alternative PDF Reader")
 $tooltip.SetToolTip($CheckBoxlibreoffice,"Free Office Suite (JRE recommended)")
 $tooltip.SetToolTip($CheckBoxsumatrapdf,"Lightweight PDF Reader")
 $tooltip.SetToolTip($CheckBoxcutepdf,"Print Documents as PDF Files")
-$tooltip.SetToolTip($CheckBoxpdfcreator,"NO SUPPORT")
 $tooltip.SetToolTip($CheckBoxopenoffice,"Free Office Suite (JRE recommended)")
 
 
