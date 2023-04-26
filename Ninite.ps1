@@ -25,9 +25,7 @@ function Install-Button{
     if ($CheckBoxthunderbird.Checked){$Link= $Link +  "-thunderbird"}
     if ($CheckBoxtrillian.Checked){$Link= $Link +  "-trillian"}
     if ($CheckBoxdropbox.Checked){$Link= $Link +  "-dropbox"}
-    if ($CheckBoxgooglebackupandsync.Checked){$Link= $Link +  "-googlebackupandsync"}
     if ($CheckBoxonedrive.Checked){$Link= $Link +  "-onedrive"}
-    if ($CheckBoxsugarsync.Checked){$Link= $Link +  "-sugarsync"}
     if ($CheckBoxitunes.Checked){$Link= $Link +  "-itunes"}
     if ($CheckBoxvlc.Checked){$Link= $Link +  "-vlc"}
     if ($CheckBoxaimp.Checked){$Link= $Link +  "-aimp"}
@@ -45,10 +43,7 @@ function Install-Button{
     if ($CheckBoxadoptjavax8.Checked){$Link= $Link +  "-adoptjavax8"}
     if ($CheckBoxadoptjavax11.Checked){$Link= $Link +  "-adoptjavax11"}
     if ($CheckBoxnet48.Checked){$Link= $Link +  "-.net-4.8"}
-    if ($CheckBoxsilverlight.Checked){$Link= $Link +  "-silverlight"}
-    if ($CheckBoxair.Checked){$Link= $Link +  "-air"}
     if ($CheckBoxevernote.Checked){$Link= $Link +  "-evernote"}
-    if ($CheckBoxgoogleearth.Checked){$Link= $Link +  "-googleearth"}
     if ($CheckBoxsteam.Checked){$Link= $Link +  "-steam"}
     if ($CheckBoxkeepass2.Checked){$Link= $Link +  "-keepass2"}
     if ($CheckBoxeverything.Checked){$Link= $Link +  "-everything"}
@@ -69,7 +64,6 @@ function Install-Button{
     if ($CheckBoxcutepdf.Checked){$Link= $Link +  "-cutepdf"}
     if ($CheckBoxpdfcreator.Checked){$Link= $Link +  "-pdfcreator"}
     if ($CheckBoxopenoffice.Checked){$Link= $Link +  "-openoffice"}
-    if ($CheckBoxteamviewer14.Checked){$Link= $Link +  "-teamviewer14"}
     if ($CheckBoxteamviewer15.Checked){$Link= $Link +  "-teamviewer15"}
     if ($CheckBoximgburn.Checked){$Link= $Link +  "-imgburn"}
     if ($CheckBoxrealvnc.Checked){$Link= $Link +  "-realvnc"}
@@ -88,17 +82,11 @@ function Install-Button{
     if ($CheckBoxspybot2.Checked){$Link= $Link +  "-spybot2"}
     if ($CheckBoxavira.Checked){$Link= $Link +  "-avira"}
     if ($CheckBoxsuper.Checked){$Link= $Link +  "-super"}
-    if ($CheckBoxphyton.Checked){$Link= $Link +  "-phyton"}
-    if ($CheckBoxphyton3.Checked){$Link= $Link +  "-phyton3"}
-    if ($CheckBoxphytonx3.Checked){$Link= $Link +  "-phytonx3"}
+    if ($CheckBoxpython.Checked){$Link= $Link +  "-python"}
+    if ($CheckBoxpython3.Checked){$Link= $Link +  "-python3"}
+    if ($CheckBoxpythonx3.Checked){$Link= $Link +  "-pythonx3"}
     if ($CheckBoxfilezilla.Checked){$Link= $Link +  "-filezilla"}
     if ($CheckBoxnotepadplusplus.Checked){$Link= $Link +  "-notepadplusplus"}
-    if ($CheckBoxadoptjava8.Checked){$Link= $Link +  "-adoptjdk8"}
-    if ($CheckBoxadoptjavax8.Checked){$Link= $Link +  "-adoptjdkx8"}
-    if ($CheckBoxadoptjavax11.Checked){$Link= $Link +  "-adoptjdkx11"}
-    if ($CheckBoxcorrettojdk8.Checked){$Link= $Link +  "-correttojdk8"}
-    if ($CheckBoxcorrettojdkx8.Checked){$Link= $Link +  "-correttojdkx8"}
-    if ($CheckBoxcorrettojdkx11.Checked){$Link= $Link +  "-correttojdkx11"}
     if ($CheckBoxwinscp.Checked){$Link= $Link +  "-winscp"}
     if ($CheckBoxputty.Checked){$Link= $Link +  "-putty"}
     if ($CheckBoxwinmerge.Checked){$Link= $Link +  "-winmerge"}
@@ -133,15 +121,12 @@ $tooltip.SetToolTip($CheckBoxwinrar,"Another Compression Tool (Trial)")
 #Messaging
 $tooltip.SetToolTip($CheckBoxzoom,"Video Conference")
 $tooltip.SetToolTip($CheckBoxdiscord,"Voice and Text Chat")
-$tooltip.SetToolTip($CheckBoxskype,"Internet Telephone")
 $tooltip.SetToolTip($CheckBoxpidgin,"Multi-IM Client")
 $tooltip.SetToolTip($CheckBoxthunderbird,"Email Reader by Mozilla")
 $tooltip.SetToolTip($CheckBoxtrillian,"Trillian IM")
 #Online Storage
 $tooltip.SetToolTip($CheckBoxdropbox,"Online Backup/File Sync")
-$tooltip.SetToolTip($CheckBoxgooglebackupandsync,"Online Backup/File Sync")
 $tooltip.SetToolTip($CheckBoxonedrive,"Online File Sync by Microsoft")
-$tooltip.SetToolTip($CheckBoxsugarsync,"Online Backup/File Sync")
 #Media
 $tooltip.SetToolTip($CheckBoxitunes,"Music/Media Manager")
 $tooltip.SetToolTip($CheckBoxvlc,"Great Video Player")
@@ -161,11 +146,8 @@ $tooltip.SetToolTip($CheckBoxadoptjavax8,"64-bit Java Runtime (JRE)")
 $tooltip.SetToolTip($CheckBoxadoptjava8,"32-bit Java Runtime (JRE)")
 $tooltip.SetToolTip($CheckBoxadoptjavax11,"64-bit Java Runtime (JRE)")
 $tooltip.SetToolTip($CheckBoxnet48,"Microsoft .NET 4.8")
-$tooltip.SetToolTip($CheckBoxsilverlight,"Microsoft Silverlight")
-$tooltip.SetToolTip($CheckBoxair,"Adobe Integrated Runtime (End of Life)")
 #Other
 $tooltip.SetToolTip($CheckBoxevernote,"Online Notes")
-$tooltip.SetToolTip($CheckBoxgoogleearth,"Online Atlas by Google")
 $tooltip.SetToolTip($CheckBoxsteam,"App Store for Games")
 $tooltip.SetToolTip($CheckBoxkeepass2,"Password Manager")
 $tooltip.SetToolTip($CheckBoxeverything,"Local File Search Engine")
@@ -182,7 +164,6 @@ $tooltip.SetToolTip($CheckBoxfaststone,"Image Viewer")
 $tooltip.SetToolTip($CheckBoxgreenshot,"Screenshot Tool")
 $tooltip.SetToolTip($CheckBoxsharex,"Screenshot Uploader")
 #Utilities
-$tooltip.SetToolTip($CheckBoxteamviewer14,"Remote Access Tool (deprecated for private use)")
 $tooltip.SetToolTip($CheckBoxteamviewer15,"Remote Access Tool")
 $tooltip.SetToolTip($CheckBoximgburn,"Disc Burner")
 $tooltip.SetToolTip($CheckBoxrealvnc,"RealVNC Remote Access")
@@ -203,17 +184,11 @@ $tooltip.SetToolTip($CheckBoxspybot2,"Spyware Remover")
 $tooltip.SetToolTip($CheckBoxavira,"Avira Free Antivirus")
 $tooltip.SetToolTip($CheckBoxsuper,"SUPERAntiSpyware Free")
 #Developer Tools
-$tooltip.SetToolTip($CheckBoxphytonx3,"Programming Language")
-$tooltip.SetToolTip($CheckBoxphyton3,"Programming Language")
-$tooltip.SetToolTip($CheckBoxphyton,"Programming Language")
+$tooltip.SetToolTip($CheckBoxpythonx3,"Programming Language")
+$tooltip.SetToolTip($CheckBoxpython3,"Programming Language")
+$tooltip.SetToolTip($CheckBoxpython,"Programming Language")
 $tooltip.SetToolTip($CheckBoxfilezilla,"FTP Client")
 $tooltip.SetToolTip($CheckBoxnotepadplusplus,"Programmer's Editor")
-$tooltip.SetToolTip($CheckBoxadoptjdk82,"64-bit Java Development Kit 8")
-$tooltip.SetToolTip($CheckBoxadoptjdk82,"Java Development Kit 8")
-$tooltip.SetToolTip($CheckBoxadoptjdkx112,"64-bit Java Development Kit 11")
-$tooltip.SetToolTip($CheckBoxcorrettojdkx8,"64-bit Java Development Kit 8")
-$tooltip.SetToolTip($CheckBoxcorrettojdk8,"Java Development Kit 8")
-$tooltip.SetToolTip($CheckBoxcorrettojdkx11,"64-bit Java Development Kit 11")
 $tooltip.SetToolTip($CheckBoxwinscp,"SCP Client")
 $tooltip.SetToolTip($CheckBoxputty,"SSH Client")
 $tooltip.SetToolTip($CheckBoxwinmerge,"Compare and Merge Files")

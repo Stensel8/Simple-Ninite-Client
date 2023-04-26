@@ -6,9 +6,8 @@ This is a small Ninite client written in PowerShell. You can choose the programs
 ## Built With
 
 * [PowerShell](https://github.com/PowerShell/PowerShell) - The Programming Language used.
-* [ISESteroids](http://www.powertheshell.com/isesteroids/) - The Compiling Tool used.
 * [Visual Studio Code](https://code.visualstudio.com) - The Code Editor (IDE) used.
-* [PowerShell Pro Tools](https://ironmansoftware.com/powershell-pro-tools/) - Used to generate the GUI and some other Features.
+* [PowerShell Pro Tools](https://ironmansoftware.com/powershell-pro-tools/) - Used to generate the GUI and some other features.
 
 
 ## Authors
@@ -19,7 +18,7 @@ Thanks to Moritz Mantel for the initial work! You should take a look at his GitH
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/Stensel8/Simple-Ninite-Client/blob/main/LICENSE) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/Stensel8/Simple-Ninite-Client/blob/main/LICENSE) for more details.
 
 
 ## Acknowledgments
