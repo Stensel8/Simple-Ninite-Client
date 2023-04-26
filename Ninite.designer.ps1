@@ -101,7 +101,6 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.Panel]$Panel6 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxsugarsync = $null
 [System.Windows.Forms.CheckBox]$CheckBoxonedrive = $null
-[System.Windows.Forms.CheckBox]$CheckBoxgooglebackupandsync = $null
 [System.Windows.Forms.CheckBox]$CheckBoxdropbox = $null
 [System.Windows.Forms.Label]$Label7 = $null
 [System.Windows.Forms.Panel]$Panel5 = $null
@@ -229,7 +228,6 @@ $CheckBoxitunes = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Panel6 = (New-Object -TypeName System.Windows.Forms.Panel)
 $CheckBoxsugarsync = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxonedrive = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxgooglebackupandsync = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxdropbox = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label7 = (New-Object -TypeName System.Windows.Forms.Label)
 $Panel5 = (New-Object -TypeName System.Windows.Forms.Panel)
@@ -1433,7 +1431,6 @@ $CheckBoxitunes.UseVisualStyleBackColor = $true
 $Panel6.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
 $Panel6.Controls.Add($CheckBoxsugarsync)
 $Panel6.Controls.Add($CheckBoxonedrive)
-$Panel6.Controls.Add($CheckBoxgooglebackupandsync)
 $Panel6.Controls.Add($CheckBoxdropbox)
 $Panel6.Controls.Add($Label7)
 $Panel6.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]163,[System.Int32]259))
@@ -1462,17 +1459,6 @@ $CheckBoxonedrive.TabIndex = [System.Int32]3
 $CheckBoxonedrive.Text = [System.String]'OneDrive'
 $CheckBoxonedrive.UseCompatibleTextRendering = $true
 $CheckBoxonedrive.UseVisualStyleBackColor = $true
-#
-#CheckBoxgooglebackupandsync
-#
-$CheckBoxgooglebackupandsync.ForeColor = [System.Drawing.Color]::White
-$CheckBoxgooglebackupandsync.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
-$CheckBoxgooglebackupandsync.Name = [System.String]'CheckBoxgooglebackupandsync'
-$CheckBoxgooglebackupandsync.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]32))
-$CheckBoxgooglebackupandsync.TabIndex = [System.Int32]2
-$CheckBoxgooglebackupandsync.Text = [System.String]'Google Backup and Sync'
-$CheckBoxgooglebackupandsync.UseCompatibleTextRendering = $true
-$CheckBoxgooglebackupandsync.UseVisualStyleBackColor = $true
 #
 #CheckBoxdropbox
 #
@@ -1852,7 +1838,6 @@ Add-Member -InputObject $Form1 -Name CheckBoxitunes -Value $CheckBoxitunes -Memb
 Add-Member -InputObject $Form1 -Name Panel6 -Value $Panel6 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxsugarsync -Value $CheckBoxsugarsync -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxonedrive -Value $CheckBoxonedrive -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxgooglebackupandsync -Value $CheckBoxgooglebackupandsync -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxdropbox -Value $CheckBoxdropbox -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label7 -Value $Label7 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel5 -Value $Panel5 -MemberType NoteProperty
