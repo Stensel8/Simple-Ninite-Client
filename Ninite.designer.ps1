@@ -74,10 +74,9 @@ $Form1 = New-Object -TypeName System.Windows.Forms.Form
 [System.Windows.Forms.CheckBox]$CheckBoxevernote = $null
 [System.Windows.Forms.Label]$Label10 = $null
 [System.Windows.Forms.Panel]$Panel8 = $null
-[System.Windows.Forms.CheckBox]$CheckBoxadoptjavax11 = $null
-[System.Windows.Forms.CheckBox]$CheckBoxadoptjavax8 = $null
+[System.Windows.Forms.CheckBox]$CheckBoxadoptjavax17 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxnet48 = $null
-[System.Windows.Forms.CheckBox]$CheckBoxadoptjava8 = $null
+[System.Windows.Forms.CheckBox]$CheckBoxnetx7 = $null
 [System.Windows.Forms.Label]$Label9 = $null
 [System.Windows.Forms.Panel]$Panel7 = $null
 [System.Windows.Forms.CheckBox]$CheckBoxhandbrake = $null
@@ -196,10 +195,9 @@ $CheckBoxgoogleearth = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxevernote = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label10 = (New-Object -TypeName System.Windows.Forms.Label)
 $Panel8 = (New-Object -TypeName System.Windows.Forms.Panel)
-$CheckBoxadoptjavax11 = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxadoptjavax8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
+$CheckBoxadoptjavax17 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $CheckBoxnet48 = (New-Object -TypeName System.Windows.Forms.CheckBox)
-$CheckBoxadoptjava8 = (New-Object -TypeName System.Windows.Forms.CheckBox)
+$CheckBoxnetx7 = (New-Object -TypeName System.Windows.Forms.CheckBox)
 $Label9 = (New-Object -TypeName System.Windows.Forms.Label)
 $Panel7 = (New-Object -TypeName System.Windows.Forms.Panel)
 $CheckBoxhandbrake = (New-Object -TypeName System.Windows.Forms.CheckBox)
@@ -1045,7 +1043,7 @@ $Panel9.Controls.Add($CheckBoxsteam)
 $Panel9.Controls.Add($CheckBoxgoogleearth)
 $Panel9.Controls.Add($CheckBoxevernote)
 $Panel9.Controls.Add($Label10)
-$Panel9.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]483,[System.Int32]252))
+$Panel9.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]483,[System.Int32]172))
 $Panel9.Name = [System.String]'Panel9'
 $Panel9.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]187,[System.Int32]207))
 $Panel9.TabIndex = [System.Int32]9
@@ -1129,42 +1127,30 @@ $Label10.UseCompatibleTextRendering = $true
 #Panel8
 #
 $Panel8.BorderStyle = [System.Windows.Forms.BorderStyle]::FixedSingle
-$Panel8.Controls.Add($CheckBoxadoptjavax11)
-$Panel8.Controls.Add($CheckBoxadoptjavax8)
+$Panel8.Controls.Add($CheckBoxadoptjavax17)
 $Panel8.Controls.Add($CheckBoxnet48)
-$Panel8.Controls.Add($CheckBoxadoptjava8)
+$Panel8.Controls.Add($CheckBoxnetx7)
 $Panel8.Controls.Add($Label9)
 $Panel8.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]483,[System.Int32]45))
 $Panel8.Name = [System.String]'Panel8'
-$Panel8.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]187,[System.Int32]205))
+$Panel8.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]187,[System.Int32]125))
 $Panel8.TabIndex = [System.Int32]8
 #
-#CheckBoxadoptjavax11
+#CheckBoxadoptjavax17
 #
-$CheckBoxadoptjavax11.ForeColor = [System.Drawing.Color]::White
-$CheckBoxadoptjavax11.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]86))
-$CheckBoxadoptjavax11.Name = [System.String]'CheckBoxadoptjavax11'
-$CheckBoxadoptjavax11.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]174,[System.Int32]24))
-$CheckBoxadoptjavax11.TabIndex = [System.Int32]8
-$CheckBoxadoptjavax11.Text = [System.String]'Java (AdoptOpenJDK) x64 11'
-$CheckBoxadoptjavax11.UseCompatibleTextRendering = $true
-$CheckBoxadoptjavax11.UseVisualStyleBackColor = $true
-#
-#CheckBoxadoptjavax8
-#
-$CheckBoxadoptjavax8.ForeColor = [System.Drawing.Color]::White
-$CheckBoxadoptjavax8.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]26))
-$CheckBoxadoptjavax8.Name = [System.String]'CheckBoxadoptjavax8'
-$CheckBoxadoptjavax8.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]191,[System.Int32]24))
-$CheckBoxadoptjavax8.TabIndex = [System.Int32]7
-$CheckBoxadoptjavax8.Text = [System.String]'Java (AdoptOpenJDK) x64 8'
-$CheckBoxadoptjavax8.UseCompatibleTextRendering = $true
-$CheckBoxadoptjavax8.UseVisualStyleBackColor = $true
+$CheckBoxadoptjavax17.ForeColor = [System.Drawing.Color]::White
+$CheckBoxadoptjavax17.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]25))
+$CheckBoxadoptjavax17.Name = [System.String]'CheckBoxadoptjavax17'
+$CheckBoxadoptjavax17.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]174,[System.Int32]24))
+$CheckBoxadoptjavax17.TabIndex = [System.Int32]8
+$CheckBoxadoptjavax17.Text = [System.String]'Java (AdoptOpenJDK) x64 17'
+$CheckBoxadoptjavax17.UseCompatibleTextRendering = $true
+$CheckBoxadoptjavax17.UseVisualStyleBackColor = $true
 #
 #CheckBoxnet48
 #
 $CheckBoxnet48.ForeColor = [System.Drawing.Color]::White
-$CheckBoxnet48.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]114))
+$CheckBoxnet48.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]55))
 $CheckBoxnet48.Name = [System.String]'CheckBoxnet48'
 $CheckBoxnet48.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]104,[System.Int32]24))
 $CheckBoxnet48.TabIndex = [System.Int32]4
@@ -1172,16 +1158,16 @@ $CheckBoxnet48.Text = [System.String]'.NET 4.8'
 $CheckBoxnet48.UseCompatibleTextRendering = $true
 $CheckBoxnet48.UseVisualStyleBackColor = $true
 #
-#CheckBoxadoptjava8
+#CheckBoxnetx7
 #
-$CheckBoxadoptjava8.ForeColor = [System.Drawing.Color]::White
-$CheckBoxadoptjava8.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]56))
-$CheckBoxadoptjava8.Name = [System.String]'CheckBoxadoptjava8'
-$CheckBoxadoptjava8.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]146,[System.Int32]24))
-$CheckBoxadoptjava8.TabIndex = [System.Int32]2
-$CheckBoxadoptjava8.Text = [System.String]'Java (AdoptOpenJDK) 8'
-$CheckBoxadoptjava8.UseCompatibleTextRendering = $true
-$CheckBoxadoptjava8.UseVisualStyleBackColor = $true
+$CheckBoxnetx7.ForeColor = [System.Drawing.Color]::White
+$CheckBoxnetx7.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]3,[System.Int32]85))
+$CheckBoxnetx7.Name = [System.String]'CheckBoxnetx7'
+$CheckBoxnetx7.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]134,[System.Int32]32))
+$CheckBoxnetx7.TabIndex = [System.Int32]4
+$CheckBoxnetx7.Text = [System.String]'.NET Desktop Runtime SDK (x64) 7'
+$CheckBoxnetx7.UseCompatibleTextRendering = $true
+$CheckBoxnetx7.UseVisualStyleBackColor = $true
 #
 #Label9
 #
@@ -1376,7 +1362,7 @@ $Panel6.Controls.Add($CheckBoxdropbox)
 $Panel6.Controls.Add($Label7)
 $Panel6.Location = (New-Object -TypeName System.Drawing.Point -ArgumentList @([System.Int32]163,[System.Int32]259))
 $Panel6.Name = [System.String]'Panel6'
-$Panel6.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]152))
+$Panel6.Size = (New-Object -TypeName System.Drawing.Size -ArgumentList @([System.Int32]154,[System.Int32]85))
 $Panel6.TabIndex = [System.Int32]6
 #
 #CheckBoxonedrive
@@ -1741,10 +1727,9 @@ Add-Member -InputObject $Form1 -Name CheckBoxgoogleearth -Value $CheckBoxgooglee
 Add-Member -InputObject $Form1 -Name CheckBoxevernote -Value $CheckBoxevernote -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label10 -Value $Label10 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel8 -Value $Panel8 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxadoptjavax11 -Value $CheckBoxadoptjavax11 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxadoptjavax8 -Value $CheckBoxadoptjavax8 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxadoptjavax17 -Value $CheckBoxadoptjavax17 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxnet48 -Value $CheckBoxnet48 -MemberType NoteProperty
-Add-Member -InputObject $Form1 -Name CheckBoxadoptjava8 -Value $CheckBoxadoptjava8 -MemberType NoteProperty
+Add-Member -InputObject $Form1 -Name CheckBoxnetx7 -Value $CheckBoxnetx7 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Label9 -Value $Label9 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name Panel7 -Value $Panel7 -MemberType NoteProperty
 Add-Member -InputObject $Form1 -Name CheckBoxhandbrake -Value $CheckBoxhandbrake -MemberType NoteProperty
