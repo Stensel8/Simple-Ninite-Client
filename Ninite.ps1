@@ -39,10 +39,9 @@ function Install-Button{
     if ($CheckBoxcccp.Checked){$Link= $Link +  "-cccp"}
     if ($CheckBoxmediamonkey.Checked){$Link= $Link +  "-mediamonkey"}
     if ($CheckBoxhandbrake.Checked){$Link= $Link +  "-handbrake"}
-    if ($CheckBoxadoptjava8.Checked){$Link= $Link +  "-adoptjava8"}
-    if ($CheckBoxadoptjavax8.Checked){$Link= $Link +  "-adoptjavax8"}
-    if ($CheckBoxadoptjavax11.Checked){$Link= $Link +  "-adoptjavax11"}
-    if ($CheckBoxnet48.Checked){$Link= $Link +  "-.net-4.8"}
+    if ($CheckBoxadoptjavax17.Checked){$Link= $Link +  "-adoptjavax17"}
+    if ($CheckBoxnet48.Checked){$Link= $Link +  "-.net4.8"}
+    if ($CheckBoxnetx7.Checked){$Link= $Link +  "-.netx7"}
     if ($CheckBoxevernote.Checked){$Link= $Link +  "-evernote"}
     if ($CheckBoxsteam.Checked){$Link= $Link +  "-steam"}
     if ($CheckBoxkeepass2.Checked){$Link= $Link +  "-keepass2"}
@@ -139,12 +138,11 @@ $tooltip.SetToolTip($CheckBoxgom,"Video Player")
 $tooltip.SetToolTip($CheckBoxspotify,"Online Music Service")
 $tooltip.SetToolTip($CheckBoxcccp,"Video decoders plus MPC")
 $tooltip.SetToolTip($CheckBoxmediamonkey,"Music Organizer")
-$tooltip.SetToolTip($CheckBoxhandbrake,"Convert Videos (requires .NET 4.7.1)")
+$tooltip.SetToolTip($CheckBoxhandbrake,"Convert Videos (requires .NET 4.7.1 or higher)")
 #Runtimes
-$tooltip.SetToolTip($CheckBoxadoptjavax8,"64-bit Java Runtime (JRE)")
-$tooltip.SetToolTip($CheckBoxadoptjava8,"32-bit Java Runtime (JRE)")
-$tooltip.SetToolTip($CheckBoxadoptjavax11,"64-bit Java Runtime (JRE)")
-$tooltip.SetToolTip($CheckBoxnet48,"Microsoft .NET 4.8")
+$tooltip.SetToolTip($CheckBoxadoptjavax17,"64-bit Java Runtime (JRE) 17")
+$tooltip.SetToolTip($CheckBoxnetx7,".NET Desktop Runtime SDK (x64) 7")
+$tooltip.SetToolTip($CheckBoxnet48,"Microsoft .NET Framework 4.8")
 #Other
 $tooltip.SetToolTip($CheckBoxevernote,"Online Notes")
 $tooltip.SetToolTip($CheckBoxsteam,"App Store for Games")
